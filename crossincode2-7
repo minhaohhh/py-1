@@ -1,0 +1,13 @@
+#打印自己的英文昵称
+print('minhao')
+
+#打印一个含有加减乘除的数学表达式
+print(1+2*3/4)
+
+#使用两次 print 语句，但只显示一行
+print('hello', end='')
+print('world')
+
+#使用一次 print 语句，但显示在两行中
+print('hello\nworld')
+
