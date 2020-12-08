@@ -1,0 +1,10 @@
+list_s = ['Beautiful', 'is', 'better', 'than', 'ugly', 'Explicit', 'is', 'better', 'than', 'implicit']
+count = {}
+
+for word in list_s:
+    if word not in count:
+        count[word] = 1
+    else:
+        count[word] += 1
+
+print(count)
